@@ -1,0 +1,235 @@
+/* ========== الأساسيات ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Tajawal', sans-serif;
+  background-color: #f5f0e6;
+  color: #3e2d1f;
+  line-height: 1.8;
+}
+
+/* ========== الشريط العلوي ========== */
+.navbar {
+  background: linear-gradient(90deg, #8b5e3c, #d4af37);
+  color: white;
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+.navbar-brand {
+  font-size: 1.6em;
+  letter-spacing: 1px;
+}
+.navbar-text {
+  opacity: 0.9;
+}
+
+/* ========== البانر الرئيسي ========== */
+.hero-banner {
+  position: relative;
+  height: 360px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hero-banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+}
+.hero-content {
+  position: relative;
+  color: white;
+  z-index: 1;
+}
+.hero-content h1 {
+  font-size: 2.8em;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #fff;
+}
+.hero-content .shine-text {
+  font-size: 1.3em;
+  color: #fff;
+  font-weight: 700;
+  background: linear-gradient(90deg, #fff 0%, #d4af37 20%, #fff 40%, #d4af37 60%, #fff 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200%;
+  animation: shine 4s linear infinite;
+}
+@keyframes shine {
+  0% { background-position: 200% center; }
+  100% { background-position: -200% center; }
+}
+
+/* ========== شريط البحث ========== */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 25px auto 30px; /* تعديل المسافة العلوية */
+}
+.search-bar input {
+  width: 400px;
+  padding: 12px 15px;
+  border: 2px solid #d4af37;
+  border-radius: 6px 0 0 6px;
+  font-size: 1em;
+  background-color: #fffaf0;
+  outline: none;
+}
+.search-bar button {
+  font-size: 1.05em;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 12px 28px;
+  border-radius: 0 8px 8px 0;
+  background-color: #8b5e3c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+.search-bar button:hover {
+  background-color: #d4af37;
+  color: #3e2d1f;
+  transform: translateY(-2px);
+}
+
+/* ========== أزرار الفئات ========== */
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.filter-btn {
+  font-size: 1.1em; /* تكبير الخط */
+  padding: 12px 22px; /* تكبير الحشوة */
+  border: none;
+  border-radius: 6px;
+  background-color: #d9c7b2;
+  color: #3e2f1c;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+.filter-btn::after {
+  content: '';
+  position: absolute;
+  left: -50%;
+  top: 50%;
+  width: 200%;
+  height: 200%;
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-50%) rotate(45deg);
+  transition: all 0.5s ease;
+  border-radius: 50%;
+  z-index: 0;
+}
+.filter-btn:hover::after,
+.filter-btn.active::after {
+  left: 0;
+}
+.filter-btn:hover,
+.filter-btn.active {
+  background-color: #b08a3c;
+  color: white;
+  box-shadow: 0 0 8px rgba(208, 173, 96, 0.6);
+}
+/* ========== شبكة المعروضات ========== */
+.exhibit-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+  padding: 20px;
+}
+.exhibit-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.exhibit-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+.exhibit-card img {
+  width: 100%;
+  height: 260px; /* تكبير الصورة */
+  object-fit: cover;
+}
+.card-body {
+  padding: 15px;
+  text-align: center;
+}
+.badge-category {
+  display: inline-block;
+  background-color: #d4af37;
+  color: #3e2d1f;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.card-body h3 {
+  font-size: 1.4em; /* تكبير عنوان المعروض */
+  color: #3e2d1f;
+  margin-bottom: 5px;
+}
+.card-body p {
+  font-size: 1em; /* تكبير النصوص الثانوية */
+  color: #6b5a4a;
+}
+
+/* ========== الترقيم ========== */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+.pagination a {
+  padding: 8px 14px;
+  margin: 0 4px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #3e2d1f;
+  background-color: #f0e5d4;
+  transition: all 0.3s;
+}
+.pagination a:hover,
+.pagination a.active {
+  background-color: #d4af37;
+  color: white;
+}
+
+/* ========== التذييل ========== */
+.site-footer {
+  background: #3b2f24;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+  font-size: 0.9em;
+}
+
+/* ========== التجاوب ========== */
+@media (max-width: 768px) {
+  .search-bar input { width: 240px; }
+  .hero-content h1 { font-size: 1.8em; }
+}

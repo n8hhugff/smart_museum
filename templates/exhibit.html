@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ exhibit.name }} — المتحف الذكي</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style_v2.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    .exhibit-container {
+      display: flex;
+      gap: 20px;
+      margin: 40px 0;
+      align-items: flex-start;
+    }
+    .exhibit-image {
+      width: 300px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .exhibit-details {
+      flex: 1;
+      color: #000;
+    }
+    .exhibit-details h2 {
+      margin-top: 0;
+      font-size: 2em;
+      margin-bottom: 10px;
+      color: #222;
+      text-shadow: 1px 1px 3px rgba(165, 128, 64, 0.3);
+    }
+    .exhibit-details p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      color: #333;
+    }
+    .question-form {
+      margin-top: 20px;
+      display: flex;
+      gap: 10px;
+    }
+    .question-form input {
+      flex: 1;
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 1em;
+    }
+    .question-form button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      background-color: #a58040;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .question-form button:hover {
+      background-color: #d0a56c;
+    }
+    .bot-section {
+      margin-top: 15px;
+      font-size: 1.1em;
+      background: #f9f5f0;
+      padding: 12px;
+      border-radius: 6px;
+    }
+    .back-btn {
+      margin-top: 30px;
+      text-align: center;
+    }
+    .back-btn a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #a58040;
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .back-btn a:hover {
+      background-color: #d0a56c;
+    }
+    .site-footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px 0;
+      font-size: 0.9em;
+      color: #fff; /* ✅ لون الكتابة أبيض */
+      background-color: #000; /* خلفية التذييل سوداء لتناسق الصفحة */
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="{{ url_for('index') }}" class="navbar-brand">🏛 المتحف الذكي</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="exhibit-container">
+      <img src="{{ exhibit.image }}" alt="{{ exhibit.name }}" class="exhibit-image">
+      <div class="exhibit-details">
+        <h2>{{ exhibit.name }}</h2>
+        <p><strong>الفئة:</strong> {{ exhibit.category }}</p>
+        <p><strong>الفترة:</strong> {{ exhibit.period }}</p>
+        <p><strong>الأصل:</strong> {{ exhibit.origin }}</p>
+        <p>{{ exhibit.description }}</p>
+
+        <form class="question-form" method="POST">
+          <input type="text" name="question" placeholder="اسأل الروبوت عن المعروض...">
+          <button type="submit">💬 اسأل</button>
+        </form>
+
+        {% if answer %}
+        <div class="bot-section">
+          <strong>الروبوت:</strong> <span class="typedText">{{ answer }}</span>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="back-btn">
+      <a href="{{ url_for('index', category=category, page=page) }}">⬅ العودة إلى الفئة</a>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>© 2025 المتحف الذكي — بإلهام من التاريخ، بروح المستقبل </p>
+  </footer>
+
+  <!-- 🔊 صوت الإرشاد عند الدخول -->
+  <script>
+    function speakArabic(text) {
+      if (!('speechSynthesis' in window)) return;
+      const utter = new SpeechSynthesisUtterance(text);
+      utter.lang = 'ar-SA';
+      utter.rate = 1.05;
+      utter.pitch = 1;
+      utter.volume = 1;
+      const voices = speechSynthesis.getVoices();
+      const arabicVoice = voices.find(v => v.lang.startsWith('ar')) || voices[0];
+      utter.voice = arabicVoice;
+      speechSynthesis.speak(utter);
+    }
+
+    const guidanceMessage = "مرحباً بك في صفحة المعروض. يمكنك استكشاف التفاصيل وطرح الأسئلة على الروبوت لمعرفة المزيد.";
+
+    window.addEventListener('DOMContentLoaded', () => {
+      if (!sessionStorage.getItem('guidancePlayed')) {
+        setTimeout(() => {
+          speakArabic(guidanceMessage);
+          sessionStorage.setItem('guidancePlayed', 'true');
+        }, 600);
+      }
+    });
+  </script>
+
+  <!-- 💬 سكربت كتابة الإجابة مع صوت -->
+  <script>
+    const clickSound = new Audio("https://assets.mixkit.co/sfx/preview/mixkit-laptop-keyboard-typing-1030.mp3");
+    clickSound.volume = 0.3;
+
+    function typeAndSpeakFull(element, text, speed = 40) {
+      element.innerHTML = "";
+      let i = 0;
+      function type() {
+        if (i < text.length) {
+          element.innerHTML += text.charAt(i);
+          clickSound.currentTime = 0;
+          clickSound.play();
+          i++;
+          setTimeout(type, speed);
+        } else {
+          const utter = new SpeechSynthesisUtterance(text);
+          utter.lang = 'ar-SA';
+          utter.rate = 1.05;
+          utter.pitch = 1;
+          utter.volume = 1;
+          const voices = speechSynthesis.getVoices();
+          const arabicVoice = voices.find(v => v.lang.startsWith('ar')) || voices[0];
+          utter.voice = arabicVoice;
+          speechSynthesis.speak(utter);
+        }
+      }
+      type();
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const botSpans = document.querySelectorAll('.typedText');
+      botSpans.forEach(span => {
+        const text = span.innerText.trim();
+        typeAndSpeakFull(span, text, 40);
+      });
+    });
+  </script>
+
+</body>
+</html>

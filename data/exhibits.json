@@ -1,0 +1,904 @@
+
+[
+  {
+    "id": 1,
+    "category": "الفن الرافدي",
+    "name": "القيثارة السومرية الذهبية",
+    "period": "حوالي 2500 قبل.الميلاد",
+    "origin": "أور، بلاد الرافدين (العراق)",
+    "description": "مرحبًا بك أمام واحدة من أعظم التحف الموسيقية في تاريخ الإنسانية، القيثارة السومرية الذهبية. هذه القيثارة، المزخرفة بعناية بالذهب والعاج، لم تكن مجرد أداة موسيقية بل جسر بين العالم الأرضي والروحي في حضارة أور. كل نقشة على الخشب تحمل رمزًا دينيًا، وكل وتر يصدر صوتًا يعكس الاحتفالات الطقوسية والموسيقى الملكية التي كانت تملأ القصور. تنظر إليها، وتشعر بلمسة الحرفيين الذين دمجوا الفن والدين بطريقة تبعث على الإعجاب والدهشة.",
+    "image":"https://i.pinimg.com/originals/37/5b/75/375b75f5fc46b9ec6eeb229b90471f42.jpg"
+  },
+  {
+    "id": 2,
+    "category": "الفن المصري القديم",
+    "name": "تمثال نفرتيتي",
+    "period": "الأسرة الثامنة عشرة – حوالي 1345 قبل.الميلاد",
+    "origin": "مصر القديمة",
+    "description": "أمامك الملكة نفرتيتي، رمز الجمال الأبدي والمثالية الملكية في مصر القديمة. لاحظ الانحناءات الدقيقة للوجه، والعينين اللتين تشعان بالحياة، والابتسامة الغامضة التي أثارت إعجاب الباحثين منذ قرون. هذا التمثال ليس مجرد صورة؛ إنه شهادة على براعة الفنانين في عصر العمارنة، حيث المزج بين الرمزية والدقة الطبيعية بلغ أرقى درجاته. نفرتيتي هنا تهمس لك عن السلطة، الثقافة، والفن الراقي الذي عاشه المصريون القدماء.",
+    "image": "https://www.marefa.org/w/images/thumb/1/1f/Nofretete_Neues_Museum.jpg/600px-Nofretete_Neues_Museum.jpg"
+  },
+  {
+
+    "id": 3,
+    "category": "حضارة الرافدين",
+    "name": "التمثال النصفي لملك آشوري",
+    "period": "القرن الثامن قبل.الميلاد",
+    "origin": "نينوى، آشور",
+    "description": "منحوتة ملكية تُجسّد الحزم والهيبة، نُحتت بدقة لتخليد صورة الحاكم كحاميٍّ ومحاربٍ ومقوّمٍ للعدل.",
+    "image": "https://blog.bookstellyouwhy.com/hs-fs/hub/237126/file-2248977703-jpg/Ashurbanipal_PD.jpg?width=416&name=Ashurbanipal_PD.jpg"
+  },
+  {
+    "id": 4,
+    "category": "الفن المصري القديم",
+    "name": "لوحة نارمر",
+    "period": "حوالي 3100 قبل.الميلاد",
+    "origin": "أوروخورنات آثار أور",
+    "description": "يصور اللوح الملك نارمر وهو يغزو اعدائه ويخضع الارض .",
+    "image": "https://elakademiapost.com/wp-content/uploads/2019/08/4412.jpg"
+  },
+  {
+    "id": 5,
+    "category": "حضارة الرافدين",
+    "name": "رقيم مسماري لأقدم سجلات التجارة",
+    "period": "الألف الثالث قبل.الميلاد",
+    "origin": "مدينة أور، بلاد الرافدين",
+    "description": "رقيم طيني مسماري يُظهر بدايات الكتابة الحسابية وسجلات التجارة؛ دليل على تطوّر الإدارة والاقتصاد في المهد الحضاري الأول.",
+    "image": "https://www.alaraby.co.uk/sites/default/files/2024-11/Screenshot%202024-11-12%20153158_0.png"
+  },
+  {
+    "id": 6,
+    "category": "حضارة الرافدين",
+    "name": "نقش أسد آشوري لصيد الحياة البرية",
+    "period": "القرن السابع قبل.الميلاد",
+    "origin": "نينوى، آشور",
+    "description": "لوحات جدارية تصور مشاهد الصيد الملكي؛ تنطق بالقوة والسيطرة وتبرهن على براعة النقّاش الآشوري في سرد الحركة والقوة عبر الحجر.",
+    "image": "https://ichef.bbci.co.uk/news/640/cpsprodpb/15243/production/_118159568_82021c7d-bf63-4efd-bc4d-219dd0f706af.jpg"
+  },
+  {
+    "id": 7,
+    "category": "حضارة الرافدين",
+    "name": "قناع ملكي مزخرف",
+    "period": "الألف الثاني قبل.الميلاد",
+    "origin": "مواقع أثرية في بلاد الرافدين",
+    "description": "قناع معدني ذهبي أو مطعّم يلبس في الطقوس أو متلازم مع المقابر الملكية، يرمز إلى الألوهية والخلود.",
+    "image": "https://tse3.mm.bing.net/th/id/OIP.jjKlkuj4a4xN5sW2gTdxNQHaEK?w=1100&h=619&rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  {
+    "id": 8,
+    "category": "حضارة الرافدين",
+    "name": "تمثال الإلهة إنانا/عشتار",
+    "period": "الألف الثالث قبل.الميلاد",
+    "origin": "معابد سومر",
+    "description": "منحوتة صغيرة تُمجّد الإلهة الأنثوية للقوة والخصوبة؛ تُظهر التقاء الضعف والهيبة في تمثيل رمزي متوازن.",
+    "image": "https://alsabaah.iq/uploads/posts/2023-08/1692208552.jpg"
+  },
+  {
+    "id": 9,
+    "category": "حضارة الرافدين",
+    "name": "طبق مزخرف من حضارة إِبلا",
+    "period": "الألف الثالث قبل.الميلاد",
+    "origin": "إبلا (شمال سوريا/تأثير عراقي)",
+    "description": "خزف مزخرف بنقوش نباتية وهندسية، شاهد على تلاقي الفنون بين مراكز المدن الأولى في بلاد ما بين النهرين وسواحلها.",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.yNnanoOip_n68zecCQBPFQHaHk?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  {
+    "id": 10,
+    "category": "حضارة الرافدين",
+    "name": "نقش قانوني مسماري محلي",
+    "period": "الألف الثاني قبل.الميلاد",
+    "origin": "مدن شمال بابل",
+    "description": "لوحة طينية تحمل قواعد محلية وعرفية؛ دليل على انتشار القانون وتطوُّره المجتمعي بعيدًا عن عواصم السلطة.",
+    "image": "https://www.researchgate.net/profile/Mojtaba_Doroodi/publication/353548590/figure/fig4/AS:1050835169587215@1627550036811/Remains-of-blue-color-in-the-cuneiform-signs-after-cleaning-the-surface-of-DNf-in-2001-C_Q320.jpg"
+  },
+  {
+    "id": 11,
+    "category": "الفن المصر القديمة",
+    "name": "تمثال نفرتيتي",
+    "period": "القرن الرابع عشر قبل.الميلاد",
+    "origin": "الأقصر/تل العمارنة - مصر",
+    "description": "رأس الملكة الجميلة نفرتيتي، تحفة بديعة في توازن الملامح والأنوثة الملكية؛ رمز للجمال والسلطة في عصر أخناتون.",
+    "image": "https://www.independentarabia.com/sites/default/files/thumbnails/image/2023/03/28/729526-773783103.jpg"
+  },
+  {
+    "id": 12,
+    "category": "الفن المصر القديمة",
+    "name": "لوحة جسد فرعوني برباط جنازة",
+    "period": "القرون الوسطى قبل الميلاد",
+    "origin": "الأهرامات – مصر",
+    "description": "نقش توضيحي للحياة الآخرة، يوضح إيمان المصري القديم بالخلود والبعث، وبراعة الصياغة الرمزية في اللون والخطوط.",
+    "image": "https://i.pinimg.com/originals/71/f4/72/71f472a04dcb87bb21cea94b6a8a949d.jpg"
+  },
+  {
+    "id": 13,
+    "category": "الفن المصر القديمة",
+    "name": "قناع توت عنخ آمون",
+    "period": "القرن الرابع عشر قبل.الميلاد",
+    "origin": "وادي الملوك – مصر",
+    "description": "قناع ذهبي فريد يتوج الملك الشاب، متقن الصياغة ومطعم بالأحجار الكريمة؛ أيقونة للفن المصري وسحره الفرعوني.",
+    "image": "https://www.elfagr.org/Upload/libfiles/457/5/175.jpeg"
+  },
+  {
+    "id": 14,
+    "category": "الفن المصر القديمة",
+    "name": "نقش هيروغليفي على لوحة حجرية",
+    "period": "القرن الثالث قبل الميلاد",
+    "origin": "معبد الكرنك – مصر",
+    "description": "نص ديني وطقوسي منحوت على حجر، يروي أسماء الآلهة وأحداث الطقوس الملكية، ويشهد على ثراء الكتابة التصويرية المصرية.",
+    "image": "https://antiquities.bibalex.org/Attachments/Photos/Big/00157310-0001.png"
+  },
+  {
+    "id": 15,
+    "category": "الفن المصر القديمة",
+    "name": "تمثال رع-آمون صغير",
+    "period": "القرن الثالث عشر قبل.الميلاد",
+    "origin": "طيبة – مصر",
+    "description": "تمثال صغير يظهر الإله في هيئة هادئة وجليلة، يعبر عن مركزية الآلهة في الحياة اليومية والملكية.",
+    "image": "https://png.pngtree.com/thumb_back/fw800/background/20220608/pngtree-amun-ra-statue-at-the-karnak-temple-in-luxor-egypt-photo-image_31163552.jpg"
+  },
+  {
+    "id": 16,
+    "category": "اليونان وروما",
+    "name": "تمثال فينوس ميلو",
+    "period": "القرن الأول قبل.الميلاد",
+    "origin": "اليونان (المتحف اللوفر)",
+    "description": "أيقونة الجمال الكلاسيكي، يقف الشكل الأنثوي متحررًا من الزمن، متجسّدًا في حجارة تُدرك حسّ التناسب والإيقاع.",
+    "image": "https://th.bing.com/th/id/R.a9a202c62c2e241f9a1f84705dc248b8?rik=zXe%2b5NGrdAUOmQ&riu=http%3a%2f%2fpm1.narvii.com%2f7035%2fd787d05233ad5dbe37d2fa6cb44afe811b567675r1-287-308v2_uhq.jpg&ehk=T80tdKR72djYAIhq2G85H%2bfROzFr0bTIZpASqp6DVZg%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 17,
+    "category": "اليونان وروما",
+    "name": "تمثال هرقل الروماني",
+    "period": "القرن الأول قبل الميلاد",
+    "origin": "روما/اليونان",
+    "description": "منحوتة بطولية تمثل القوة والقدرة البدنية، تصور بطولات الأسطورة في شكل واضح وحواري.",
+    "image": "https://saudipedia.com/saudipedia/uploads/images/2023/08/22/64936.jpg"
+  },
+  {
+    "id": 18,
+    "category": "اليونان وروما",
+    "name": "فسيفساء رومانية من بومبي",
+    "period": "القرن الأول ميلادي",
+    "origin": "بومبي، إيطاليا",
+    "description": "لوحات فسيفسائية دقيقة تصور مشاهد الحياة اليومية والأساطير، وتكشف عن براعة الرومان في التلوين الحجري.",
+    "image": "https://th.bing.com/th/id/R.22c109b95a6ca7846cc504853b1bd640?rik=h3nW7av%2bl1%2b1Kg&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 19,
+    "category": "العصر الإسلامي",
+    "name": "مخطوطة قرآنية مزخرفة",
+    "period": "القرن التاسع هجري",
+    "origin": "بغداد – العصر العباسي",
+    "description": "مخطوطة مزخرفة بخطٍ بديع وتذهيب دقيق؛ تجسّد التقاء الروحاني والجمالي في المصنفات الإسلامية.",
+    "image": "https://tse1.mm.bing.net/th/id/OIP.ZZXl4FZu4vQka9nNltgzXwHaE7?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  {
+    "id": 20,
+    "category": "العصر الإسلامي",
+    "name": "قبة المسجد المزخرفة (نموذج)",
+    "period": "القرن الحادي عشر",
+    "origin": "بغداد/بناء اسلامي تقليدي",
+    "description": "نموذج زخرفة قبة مسجدية يبرز هندسة الزخارف الهندسية والنقوش النباتية التي تزين المعمار الإسلامي.",
+    "image": "https://i.ytimg.com/vi/5k3WExzrll0/hqdefault.jpg"
+  },
+  {
+    "id": 21,
+    "category": "العصر الإسلامي",
+    "name": "مزهرية خزفية مزخرفة",
+    "period": "القرن العاشر",
+    "origin": "البصرة/المشرق الإسلامي",
+    "description": "مزهرية خزفية بنقوش هندسية وزهرية؛ شهادة على براعة الصناعة الخزفية الإسلامية وتبادل الأنماط عبر السواحل.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Islamic_ceramic_vase.jpg"
+  },
+  {
+    "id": 22,
+    "category": "النهضة الأوروبية",
+    "name": "لوحة الموناليزا",
+    "period": "القرن السادس عشر",
+    "origin": "فلورنسا، إيطاليا",
+    "description": "تحفة ليوناردو دافنشي التي توّجت مهارته في المزج بين السرد النفسي والتقنية اللمّاعة؛ ابتسامتها الغامضة تقرأها العصور وتتردد عبرها.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Mona_Lisa.jpg"
+  },
+  {
+    "id": 23,
+    "category": "النهضة الأوروبية",
+    "name": "لوحة العشاء الأخير (جزء)",
+    "period": "القرن السادس عشر",
+    "origin": "إيطاليا",
+    "description": "مشهد بطولي يروي لحظة درامية في التاريخ الديني والإنساني، ويفتح نافذة على التعبير النفسي الجماعي عبر البريد البصري.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Last_Supper.jpg"
+  },
+  {
+    "id": 24,
+    "category": "النهضة الأوروبية",
+    "name": "لوحة ولادة فينوس",
+    "period": "القرن الخامس عشر",
+    "origin": "إيطاليا",
+    "description": "قصة ميلاد الجمال والأسطورة في مشهدٍ واحد؛ لون ومقاس وتكوين يأسر العين ويؤكد تفوق التمثيل الكلاسيكي.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Birth_of_Venus_Botticelli.jpg"
+  },
+  {
+    "id": 25,
+    "category": "الفن الحديث والمعاصر",
+    "name": "لوحة حفرة النجم (فان غوخ)",
+    "period": "1890",
+    "origin": "هولندا",
+    "description": "مناخ لوني وعاطفي يتفجر في دوامات ضوئية؛ رؤية فان غوخ للسماء تفتح القلب على حكاية الانفعالات الداخلية.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+  },
+  {
+    "id": 26,
+    "category": "الفن الحديث والمعاصر",
+    "name": "لوحة الصرخة (مونك)",
+    "period": "1893",
+    "origin": "النرويج",
+    "description": "صرخة لونية تعبر عن قلق الوجود؛ قطعة أيقونية تُمثل القلق العصري والهوية النفسية للعصر الحديث.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/The_Scream.jpg"
+  },
+  {
+    "id": 27,
+    "category": "الفن الحديث والمعاصر",
+    "name": "منحوتة برونزية لبيكاسو",
+    "period": "القرن العشرين",
+    "origin": "إسبانيا/فرنسا",
+    "description": "منحوتة تعيد تشكيل الشكل البشري في أشكال هندسية؛ لغة بيكاسو البصرية تتحدى التقليد وتبتكر أشكالاً جديدة للرؤيا.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Picasso_sculpture.jpg"
+  },
+  {
+    "id": 28,
+    "category": "العمارة العالمية",
+    "name": "نموذج جامع سامراء",
+    "period": "القرن التاسع",
+    "origin": "سامراء، العراق",
+    "description": "نموذج للمهارات المعمارية العباسية مع زوايا وزخارف هندسية فريدة؛ شاهد على روعة الهندسة الإسلامية في المِشرق.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Samarran_architecture.jpg"
+  },
+  {
+    "id": 29,
+    "category": "العمارة العالمية",
+    "name": "الزقورة في أور (تصوير)",
+    "period": "الألف الثالث ق.م",
+    "origin": "أور، بلاد الرافدين",
+    "description": "بقايا عملاقة لمعبد يرتفع نحو السماء؛ البنية الطينية تُظهر الروح الدينية والقدرة التنظيمية لحضارة مبكرة.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Ziggurat_of_Ur_001.jpg"
+  },
+  {
+    "id": 30,
+    "category": "الفن العربي الحديث",
+    "name": "عمل لفنان عراقي - جواد سليم (قوس النصر) نموذج",
+    "period": "القرن العشرين",
+    "origin": "بغداد، العراق",
+    "description": "نموذج عام يمثل لغة فنية وطنية؛ أعمال جواد سليم تدمج الرمزية الوطنية مع البراعة التصويرية.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/80/National_Arch_Iraq.jpg"
+  },
+  {
+    "id": 31,
+    "category": "الفن العربي الحديث",
+    "name": "لوحة جسدية للفنان إسماعيل الشيخلي (نموذج)",
+    "period": "القرن العشرين",
+    "origin": "العراق",
+    "description": "لوحة تعبر عن ذاكرة الوطن والهوية بصيغة تشكيلية حديثة، حيث تتقاطع الذاكرة والحنين في لونية خاصة.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Modern_Iraqi_art.jpg"
+  },
+  {
+    "id": 32,
+    "category": "الفن العربي الحديث",
+    "name": "عمل لنجم الدين علي (نموذج)",
+    "period": "القرن العشرين",
+    "origin": "بغداد",
+    "description": "لوحة تعكس التفاعل بين الحداثة والتقليد، وتستدعي عناصر التراث عبر مفردات تشكيلية عصرية.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/92/Contemporary_Arabic_art.jpg"
+  },
+  {
+    "id": 33,
+    "category": "العمارة العراقية",
+    "name": "قصر العباسيين - نموذج زخرفي",
+    "period": "القرن الثامن",
+    "origin": "بغداد العباسية",
+    "description": "نموذج لقصر تعبّر جدرانه عن براعة الزخرفة وشاعريّة الفضاء الداخلي في بغداد الذهبية.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/Abbassid_architecture.jpg"
+  },
+  {
+    "id": 34,
+    "category": "العمارة العراقية",
+    "name": "قبة مسجد في القرن الثالث عشر - تصميم",
+    "period": "القرن الثالث عشر",
+    "origin": "العراق",
+    "description": "قبة ذات زخارف هندسية دقيقة تمثل تلاقي العلوم والفن في عمارة المساجد العراقية.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Islamic_dome.jpg"
+  },
+  {
+    "id": 35,
+    "category": "الآثار الإسلامية",
+    "name": "شاهد قبر مزخرف من العصر العباسي",
+    "period": "القرن التاسع",
+    "origin": "بغداد",
+    "description": "لوحة حجريّة منقوشة بزخارف هندسية ونصوص، تبرز تلازم الجمال والذكر في المشهد الجنائزي.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Islamic_gravestone.jpg"
+  },
+  {
+    "id": 36,
+    "category": "العمارة الإسلامية",
+    "name": "باب مزخرف يعود لمدخل قلعة قديمة",
+    "period": "القرون الوسطى الإسلامية",
+    "origin": "العراق",
+    "description": "باب خشبي مزخرف يروي قصص الحرف والمواد المتداخلة بين الحماية والجمال.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Ornate_door.jpg"
+  },
+  {
+    "id": 37,
+    "category": "العمارة العالمية",
+    "name": "نموذج قلعة بابل (تصور فني)",
+    "period": "الألف الثاني ق.م",
+    "origin": "بابل",
+    "description": "تمثيل فني لقلعة أو هيكل دفاعي في بابل؛ يجمع بين الأسطورة والتخطيط العمراني القديم.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Vienna%29_-_Google_Art_Project_-_edited.jpg"
+  },
+  {
+    "id": 38,
+    "category": "التراث الشعبي",
+    "name": "سردق شعبي - ملابس تقليدية عراقية",
+    "period": "القرن التاسع عشر",
+    "origin": "المناطق الريفية العراقية",
+    "description": "زي شعبي مزخرف بنقوش محلية يعكس تنوع الأزياء والتقاليد المحلية عبر الأنهار والواحات.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Traditional_clothes.jpg"
+  },
+  {
+    "id": 39,
+    "category": "التراث الشعبي",
+    "name": "أدوات طقسية زراعية قديمة",
+    "period": "التاريخ القديم",
+    "origin": "دجلة والفرات",
+    "description": "مجموعة أدوات تثبت العلاقة الطويلة بين الإنسان والنهر؛ أدوات بسيطة تروي حكايات الشغل والحياة اليومية.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Ancient_tools.jpg"
+  },
+  {
+    "id": 40,
+    "category": "المخطوطات والكتب",
+    "name": "مخطوطة طبية عربية قديمة",
+    "period": "القرن الحادي عشر",
+    "origin": "بغداد/البيت الحكيم",
+    "description": "مخطوطة طبية تحمل نصائح وعلاجات؛ دليل على ازدهار المعرفة والعلوم في بغداد التاريخية.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Medieval_manuscript.jpg"
+  },
+  {
+    "id": 41,
+    "category": "الفن العالمي",
+    "name": "لوحة بيكاسو - نموذج تجريدي",
+    "period": "القرن العشرين",
+    "origin": "إسبانيا",
+    "description": "لوحة تجريدية تعيد تشكيل الشكل الإنساني بلغة هندسية مبتكرة، علامة على تحولات الفن الحديث.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Picasso_painting.jpg"
+  },
+  {
+    "id": 42,
+    "category": "الفن العالمي",
+    "name": "تمثال برونزي من عصر النهضة",
+    "period": "القرن السادس عشر",
+    "origin": "إيطاليا",
+    "description": "منحوتة تُجسد رغبة الإنسان في تجسيد الجسد المثالي، وتثير تأملات حول الجمال والتقنية.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/Renaissance_sculpture.jpg"
+  },
+  {
+    "id": 43,
+    "category": "الفنون التطبيقية",
+    "name": "سجادة شرقية منسوجة يدوياً",
+    "period": "القرن الثامن عشر",
+    "origin": "حلب/بغداد/المشرق",
+    "description": "سجادة مزخرفة بنقوش هندسية وزهرية، تمثل تلاقي الحرفة والجمال، وتروي قصص التبادل التجاري والثقافي.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Oriental_rug.jpg"
+  },
+  {
+    "id": 44,
+    "category": "الفنون التطبيقية",
+    "name": "مجموعة أدوات كتابة قديمة",
+    "period": "القرن العاشر",
+    "origin": "العراق",
+    "description": "حبر وريشة وأوانٍ للحفظ؛ تذكير بدور العراق كمركز علمي وثقافي للحضارة الإسلامية.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/86/Ancient_writing_tools.jpg"
+  },
+  {
+    "id": 45,
+    "category": "الموسيقى والآلات",
+    "name": "عود تقليدي قديم",
+    "period": "القرن الثامن عشر",
+    "origin": "المشرق العربي",
+    "description": "آلة موسيقية تُنشد لحنًا ثقافيًا متراكمًا؛ تُعدّ جزءًا من التراث السمعي المتوارث في المنطقة.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Oud.jpg"
+  },
+  {
+    "id": 46,
+    "category": "الموسيقى والآلات",
+    "name": "نقش أخدود لممارسة موسيقية قديمة",
+    "period": "التاريخ القديم",
+    "origin": "بلاد الرافدين",
+    "description": "نقوش تُظهِر طقوسًا موسيقية واحتفالات؛ دليل على حضور الموسيقى منذ أقدم العصور في الحياة العامة.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/Ancient_music_relief.jpg"
+  },
+  {
+    "id": 47,
+    "category": "الصور الفوتوغرافية التاريخية",
+    "name": "صور نادرة لبغداد في بدايات القرن العشرين",
+    "period": "القرن العشرين",
+    "origin": "بغداد",
+    "description": "سلسلة صور توثّق حياة المدينة وشوارعها وأسواقها قبل التغيرات الحداثية، تأخذنا إلى ذاكرة حضرية غنية.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Old_Baghdad_photo.jpg"
+  },
+  {
+    "id": 48,
+    "category": "الفن الإسلامي",
+    "name": "مخطوطة فقهية مزخرفة",
+    "period": "القرن الحادي عشر",
+    "origin": "بغداد",
+    "description": "مخطوطة فقهية تفيض بالزخارف والهندسة الخطية؛ دلالة على ارتفاع مستوى الثقافة الدينية والعلمية.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Illuminated_manuscript.jpg"
+  },
+  {
+    "id": 49,
+    "category": "الفن الإسلامي",
+    "name": "مجموعة نقوش من بلاط مزخرف",
+    "period": "القرن العاشر",
+    "origin": "المشرق الاسلامي",
+    "description": "بلاطات زخرفية تُستخدم في التزيين المعماري؛ مثال على الذوق الجمالي المتقن في السقوف والجدران.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Islamic_tiles.jpg"
+  },
+  {
+    "id": 50,
+    "category": "الفن المعاصر العراقي",
+    "name": "لوحة معاصرة تتناول الذاكرة (نموذج)",
+    "period": "القرن الواحد والعشرون",
+    "origin": "بغداد",
+    "description": "لوحة حديثة تُعالِج موضوعات الذاكرة والصراع والهوية بلغة تشكيلية معاصرة، تمتلك صوتًا بصريًا صريحًا وعاطفيًا.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Modern_Iraqi_art.jpg"
+  },
+  {
+    "id": 51,
+    "category": "الفن المعاصر العراقي",
+    "name": "منحوتة معبرة عن السلام",
+    "period": "القرن الحادي والعشرون",
+    "origin": "بغداد",
+    "description": "منحوتة حديثة تتأمل مفهومي الصراع والسلام؛ تستخدم مواد معاصرة ولغة تشكيلية رمزية.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Modern_sculpture.jpg"
+  },
+  {
+    "id": 52,
+    "category": "الفن المعاصر العراقي",
+    "name": "ملصق احتجاجي فني (نموذج)",
+    "period": "القرن الحادي والعشرون",
+    "origin": "العراق",
+    "description": "عمل جرافيكي يُعبّر عن نبض الشارع وقضايا المجتمع؛ يعكس التداخل بين الفن والسياسة.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Political_poster.jpg"
+  },
+  {
+    "id": 53,
+    "category": "الفن الشعبي",
+    "name": "أدوات طبخ تقليدية",
+    "period": "القرن التاسع عشر",
+    "origin": "الريف العراقي",
+    "description": "أوانٍ وأدوات يومية تحكي عادات المائدة والضيافة في القرى العراقية، تفيض بالبساطة والحكمة.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Traditional_kitchen.jpg"
+  },
+  {
+    "id": 54,
+    "category": "الفن الشعبي",
+    "name": "مجوهرات تقليدية مزخرفة",
+    "period": "القرن التاسع عشر",
+    "origin": "المناطق الجنوبية في العراق",
+    "description": "مجموعات من الحليّ النحاسية والفضية تُزخرف بنقوش محلية؛ دليل على ذوق المرأة الريفية وطقوس الزينة.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Traditional_jewelry.jpg"
+  },
+  {
+    "id": 55,
+    "category": "التصوير الفوتوغرافي المعاصر",
+    "name": "سلسلة بورتريه عن مدينة بغداد",
+    "period": "القرن الحادي والعشرون",
+    "origin": "بغداد",
+    "description": "صور عصرية توثّق وجوه المدينة وتحوّلاتها؛ تصور الحياة اليومية بتركيز إنساني وحنون.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Old_Baghdad_photo.jpg"
+  },
+  {
+    "id": 56,
+    "category": "الخط العربي",
+    "name": "نموذج خطي مزخرف",
+    "period": "القرن العاشر",
+    "origin": "بغداد",
+    "description": "قطعة خطية تُظهر براعة الخطاط الإسلامي في تشكيل الحروف وزخرفتها، تجمع بين دقة الحرف وروحانيته.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Arabic_calligraphy.jpg"
+  },
+  {
+    "id": 57,
+    "category": "الفنون الرقمية",
+    "name": "عمل رقمي تفاعلي عن الذاكرة الجماعية",
+    "period": "القرن الحادي والعشرون",
+    "origin": "بغداد/التحول الرقمي",
+    "description": "عمل وسائط متعدّدة يجمع الصور الصوتية والنصية لتشكيل سرد بصري عن تجارب الناس والذاكرة التاريخية.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Digital_art.jpg"
+  },
+  {
+    "id": 58,
+    "category": "التراث الفكري",
+    "name": "مخطوط فيلسوف من بغداد",
+    "period": "القرن الحادي عشر",
+    "origin": "بيت الحكمة، بغداد",
+    "description": "مخطوطة فلسفية أو علمية تُظهر مناهج التفكير والنقل المعرفي في بغداد، مركز الفكر في قرونٍ مضت.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Medieval_manuscript.jpg"
+  },
+  {
+    "id": 59,
+    "category": "الصور التاريخية",
+    "name": "خريطة قديمة لمدينة بابل",
+    "period": "القرن التاسع عشر (ترسيم قديم)",
+    "origin": "أرشيفات تاريخية",
+    "description": "خريطة تصور مواقع أثرية وأطلال بابل؛ تعطي شعورًا بالماضي المكاني وتعد مرجعًا للباحثين والمهتمين.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Old_map.jpg"
+  },
+  {
+    "id": 60,
+    "category": "القطع النحتية العراقية",
+    "name": "تمثال حجري لملك قديم",
+    "period": "القرن السابع ق.م",
+    "origin": "آشور",
+    "description": "تمثال حجري يعلن عن مكانة الحاكم في المجتمع، ويعكس أسلوب النحت الملكي في بلاد الرافدين.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Assyrian_king_head.jpg"
+  },
+  {
+    "id": 61,
+    "category": "القطع الأثرية البحرية",
+    "name": "أوانٍ تجارية مستوردة من البحر المتوسط",
+    "period": "العصور القديمة",
+    "origin": "موانئ بلاد الرافدين",
+    "description": "دليل على حركة التجارة البحرية والتبادل الثقافي بين بلاد الرافدين وبقية حوض البحر المتوسط.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Ancient_plate.jpg"
+  },
+  {
+    "id": 62,
+    "category": "الفن الحديث العالمي",
+    "name": "عمل تجريدي لأحد الرواد الأوروبيين",
+    "period": "القرن العشرين",
+    "origin": "أوروبا",
+    "description": "لوحة تجريدية تلعب بالمساحات والخطوط، وتدعو المشاهد إلى قراءة المعنى بدلاً من الاعتماد على الشكل التقليدي.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Picasso_painting.jpg"
+  },
+  {
+    "id": 63,
+    "category": "الترميم والحفظ",
+    "name": "جزء من مشروع ترميم آثار",
+    "period": "القرن الحادي والعشرون",
+    "origin": "العراق",
+    "description": "عرض توثيقي يبيّن خطوات ترميم قطعة أثرية؛ يبرز مهارات الحفاظ على التراث وأهمية المهن المختصة.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Conservation_lab.jpg"
+  },
+  {
+    "id": 64,
+    "category": "التراث البحري",
+    "name": "سفن تجارية قديمة - نقش",
+    "period": "العصور القديمة",
+    "origin": "المناطق الساحلية",
+    "description": "نقش يوضح شكل السفن ويشير إلى حركة التجارة والرحلات البحرية التي ربطت حضارات المنطقة.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Ancient_ship.jpg"
+  },
+  {
+    "id": 65,
+    "category": "المجموعات الملكية",
+    "name": "أوانٍ ملكية مزخرفة",
+    "period": "الألف الثاني ق.م",
+    "origin": "بابل",
+    "description": "مجموعة أوانٍ معروضة في سياق الحياة الملكية اليومية؛ ترمز إلى الرفاهية والمهارة الحرفية.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Ancient_vessels.jpg"
+  },
+  {
+    "id": 66,
+    "category": "الخط العربي",
+    "name": "لوحة خطية حديثة لفنان عراقي",
+    "period": "القرن الحادي والعشرون",
+    "origin": "بغداد",
+    "description": "تركيبٌ خطّي معاصر يستدعي التراث ويعيد القراءة بلغة اليوم؛ يجمع بين الجماليات التقليدية والبحث الحداثي.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Arabic_calligraphy.jpg"
+  },
+  {
+    "id": 67,
+    "category": "الفنون البصرية",
+    "name": "لوحة مشهد نهري (دجلة) قديمة",
+    "period": "القرن التاسع عشر",
+    "origin": "مناظير محلية",
+    "description": "لوحة تمزج بين التصوير الطبيعي والتعبير المحلي عن النهر الذي عزّ مدينته؛ سرد بصري عن العلاقة بين المكان والهوية.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Ancient_Egypt_painting.jpg"
+  },
+  {
+    "id": 68,
+    "category": "المقتنيات الخاصة",
+    "name": "مخطوطة نظم شعري",
+    "period": "القرن الحادي عشر",
+    "origin": "العراق",
+    "description": "ديوان شعري مزخرف يدلل على قوة الكلمة ومكانتها في الثقافة العربية وإسهامات العراق في الأدب.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Medieval_manuscript.jpg"
+  },
+  {
+    "id": 69,
+    "category": "الفن الإسلامي",
+    "name": "لوحة فسيفساء من مسجد قديم",
+    "period": "القرن الحادي عشر",
+    "origin": "المشرق الإسلامي",
+    "description": "قطع فسيفسائية دقيقة تزخرف الأرضيات والجدران بشكلٍ هندسي متقن، وتستعير لغة الأرقام والجمال.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Roman_mosaic.jpg"
+  },
+  {
+    "id": 70,
+    "category": "التاريخ الحديث",
+    "name": "وثيقة تاريخية لحكومة محلية",
+    "period": "القرن التاسع عشر",
+    "origin": "العراق",
+    "description": "وثيقة رسمية تُظهر مراسلات أو قرارات إدارية؛ نافذة على تطور الإدارة المحلية والمؤسسات.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Old_map.jpg"
+  },
+  {
+    "id": 71,
+    "category": "الفن المعاصر العالمي",
+    "name": "عمل فيديو آرت״",
+    "period": "القرن الحادي والعشرون",
+    "origin": "عالمي",
+    "description": "عمل مرئي يستكشف مفاهيم الذاكرة والهوية في زمن السرعة الإعلامية، يُعرض على شاشة كبيرة كعامل غامر.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Digital_art.jpg"
+  },
+  {
+    "id": 72,
+    "category": "التراث الصناعي",
+    "name": "محرك قديم وآلة طحن",
+    "period": "القرن التاسع عشر",
+    "origin": "المناطق الصناعية",
+    "description": "قطع ميكانيكية تعكس بدايات الثورة الصناعية المحلية وتأثيرها في الحياة الاقتصادية يومًا بعد يوم.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Industrial_relics.jpg"
+  },
+  {
+    "id": 73,
+    "category": "الخط العربي",
+    "name": "مفصل خطي قرآني - لوحة فنية",
+    "period": "القرن الخامس عشر",
+    "origin": "المشرق",
+    "description": "لوحة خطية تجمع بين التقديس وحِرَفية الزخرفة؛ تذكّر بمكانة الخط كفن مقدّس وممارسة تشكيلية راقية.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Arabic_calligraphy.jpg"
+  },
+  {
+    "id": 74,
+    "category": "الفنون الصوتية",
+    "name": "تسجيلات موسيقية أرشيفية",
+    "period": "القرن العشرين",
+    "origin": "المنطقة",
+    "description": "سجلات صوتية لأغاني ومواويل قديمة؛ تُعيد ربط المستمع بمشاعر الماضي وموروثاته الصوتية.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Oud.jpg"
+  },
+  {
+    "id": 75,
+    "category": "العملات والمسكوكات",
+    "name": "عملات تاريخية من بابل",
+    "period": "العصور القديمة",
+    "origin": "بابل",
+    "description": "عملة معدنية تحمل رموز السلطة والاقتصاد؛ دليل على حركة التجارة والنظام المالي في الزمن القديم.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Ancient_coins.jpg"
+  },
+  {
+    "id": 76,
+    "category": "الفن الإسلامي",
+    "name": "قطعة خزفية مُزخرفة بأسماء الله الحسنى",
+    "period": "القرن الحادي عشر",
+    "origin": "بغداد",
+    "description": "خزف مُزخرف يحمل نصوصًا دينية وزخارف هندسية، تضع النص في إطار فني يحترم الروحاني والجمالي.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Islamic_ceramic_vase.jpg"
+  },
+  {
+    "id": 77,
+    "category": "الفن العالمي",
+    "name": "عمل تصويري معاصر عن الهوية",
+    "period": "القرن الحادي والعشرون",
+    "origin": "عالمي",
+    "description": "مشروع بصري يرحّب بالمشاهد إلى حوارٍ حول الانتماء والذاكرة عبر صور مركّبة ومونتاج دقيق.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Digital_art.jpg"
+  },
+  {
+    "id": 78,
+    "category": "القطع الأثرية الخاصة",
+    "name": "مرآة قديمة منحوتة",
+    "period": "القرن الثاني قبل الميلاد",
+    "origin": "الشرق الأدنى",
+    "description": "مرآة برونزية محفورة بنقوش دقيقة؛ تُعيد التفكير في علاقة الإنسان بذاته ومرآته عبر العصور.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/Ancient_mirror.jpg"
+  },
+  {
+    "id": 79,
+    "category": "الفن المعاصر العراقي",
+    "name": "تركيب فني من مخلفات الحرب (نموذج)",
+    "period": "القرن الحادي والعشرون",
+    "origin": "العراق",
+    "description": "تركيب يستخدم موادًا مستعملة ليصنع خطابًا بصريًا عن الدمار والشفاء والذاكرة الجماعية.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Modern_sculpture.jpg"
+  },
+  {
+    "id": 80,
+    "category": "التراث الشعبي",
+    "name": "ألعاب تقليدية للأطفال",
+    "period": "القرن التاسع عشر",
+    "origin": "العراق",
+    "description": "ألعاب بسيطة تُروى عبر الأجيال؛ تذكّر بأوقات اللعب البريئة وتشكل جزءًا من الذاكرة الاجتماعية.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Traditional_toys.jpg"
+  },
+  {
+    "id": 81,
+    "category": "الفن الحديث العالمي",
+    "name": "لوحة تركيبة ضوئية",
+    "period": "القرن الحادي والعشرون",
+    "origin": "عالمي",
+    "description": "عمل ضوئي تفاعلي يعتمد على الضوء والظل لتوليد تجربة حسية بصرية تنطوي على اللعب بالزمن والمكان.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Digital_art.jpg"
+  },
+  {
+    "id": 82,
+    "category": "المخطوطات والكتب",
+    "name": "مخطوطة تاريخية عن بغداد",
+    "period": "القرن الثاني عشر",
+    "origin": "بغداد",
+    "description": "مخطوطة تروي أحداثًا تاريخية محلية، وتُظهر دور بغداد كمركزٍ للحكاية والكتابة.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Medieval_manuscript.jpg"
+  },
+  {
+    "id": 83,
+    "category": "التاريخ الاجتماعي",
+    "name": "سجل تجاري لعائلة تجارية قديمة",
+    "period": "القرن التاسع عشر",
+    "origin": "بغداد",
+    "description": "سجل يُظهر معاملات ومراسلات تجارية؛ نافذة على الحياة الاقتصادية للمدن وعائلاتها التجارية.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Old_map.jpg"
+  },
+  {
+    "id": 84,
+    "category": "التراث الفني",
+    "name": "قماش مطرّز يدويًا من مدينة النجف",
+    "period": "القرن التاسع عشر",
+    "origin": "النجف، العراق",
+    "description": "قماش مزخرف يعكس مهارات التطريز المحلي وتوظيف الألوان والرموز الثقافية في الحليّ والأثاث.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Traditional_clothes.jpg"
+  },
+  {
+    "id": 85,
+    "category": "الفن الحضري",
+    "name": "جدارية شارع من فنان عراقي معاصر",
+    "period": "القرن الحادي والعشرون",
+    "origin": "بغداد",
+    "description": "عمل جرافيتي يضيف لونًا ومعنى للحيّ، يعكس حيوية الإبداع الشعبي وقدرة الفن على إعادة تشكيل الفضاء العام.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Political_poster.jpg"
+  },
+  {
+    "id": 86,
+    "category": "القطع النحتية",
+    "name": "تمثال حجري لآلهة قديمة",
+    "period": "العصور القديمة",
+    "origin": "العراق",
+    "description": "منحوتة تستحضر الإيمان في صورته الأولى؛ تذكّر بقدسية الرموز وتحولها عبر الزمن.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Assyrian_king_head.jpg"
+  },
+  {
+    "id": 87,
+    "category": "المتاحف العالمية (مقتنيات مرجعية)",
+    "name": "نسخة تصور لمعرض اللوفر (تصور فني)",
+    "period": "المعاصر",
+    "origin": "تأثيرات عالمية",
+    "description": "عرض يربط بين مقتنيات اللوفر العالمية والمقتنيات العراقية في سياق حوار حضاري ومقارنة ثقافية.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/Louvre_Museum_Wikimedia_Commons.jpg"
+  },
+  {
+    "id": 88,
+    "category": "التجربة المعملية",
+    "name": "مختبر تفاعلي لحفظ التراث",
+    "period": "المعاصر",
+    "origin": "مشروع متحفي",
+    "description": "عرض عملي يعرّف الزائر بطرق حفظ وترميم القطع الأثرية ويمكّن من مشاهدة تقنيات العمل الحرفي.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Conservation_lab.jpg"
+  },
+  {
+    "id": 89,
+    "category": "اللوحات الوثائقية",
+    "name": "مخطط تطور بغداد عبر القرون (لوحة جدارية)",
+    "period": "المعاصر",
+    "origin": "بغداد",
+    "description": "لوحة جدارية كبيرة تعرض خارطة زمان ومكان لبغداد، تربط بين الفترات التاريخية وتوضّح التحولات العمرانية.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Old_map.jpg"
+  },
+  {
+    "id": 90,
+    "category": "المقتنيات الأثرية",
+    "name": "أداة حِرفية من العصر البرونزي",
+    "period": "الألف الثاني ق.م",
+    "origin": "بلاد الرافدين",
+    "description": "أداة معدنية تُشهد على تطوّر الصناعات الحرفية وتقنيات الصهر والطرق في العصور القديمة.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Ancient_tools.jpg"
+  },
+  {
+    "id": 91,
+    "category": "الموسيقى والآلات",
+    "name": "مخطط سلم موسيقي قديم",
+    "period": "التاريخ القديم",
+    "origin": "بلاد الرافدين",
+    "description": "مخطط يبيّن النغمات والممارسات الموسيقية القديمة؛ شاهد على أسس الموسيقى التقليدية في المنطقة.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/Ancient_music_relief.jpg"
+  },
+  {
+    "id": 92,
+    "category": "الأزياء والتزيين",
+    "name": "ثوب ملكي مطرّز",
+    "period": "القرن الأول قبل الميلاد",
+    "origin": "بابل",
+    "description": "ثوب مزخرف كان يُرتدى في المناسبات الملكية؛ شاهدة على مهارة النسج والتطريز وأهمية الألبسة كرموز للسلطة.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Traditional_clothes.jpg"
+  },
+  {
+    "id": 93,
+    "category": "الفن المعاصر العراقي",
+    "name": "مجموعة لوحات عن النهر والمدينة",
+    "period": "القرن الحادي والعشرون",
+    "origin": "بغداد",
+    "description": "سلسلة تشكيلية تُجسّد العلاقة بين النهر (دجلة) والمدينة، وتعيد نشر الذاكرة بصياغة لونية معاصرة.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Ancient_Egypt_painting.jpg"
+  },
+  {
+    "id": 94,
+    "category": "المتاحف العالمية (مقتنيات مرجعية)",
+    "name": "جزء من مقتنيات المتحف البريطاني (تصور)",
+    "period": "متنوع",
+    "origin": "المتاحف العالمية",
+    "description": "عرض يفصل مقارنة بين مقتنيات البلد ومقتنيات المتاحف العالمية، ويطرح أسئلة حول الحفظ والملكية الثقافية.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/British_Museum.jpg"
+  },
+  {
+    "id": 95,
+    "category": "الفن الإسلامي",
+    "name": "محراب مزخرف - قطعة معمارية",
+    "period": "القرن الحادي عشر",
+    "origin": "مسجد قديم في العراق",
+    "description": "محراب منقوش بزخارف وأنماط هندسية؛ يرمز إلى المكان المقدس في الفضاء العبادي الإسلامي.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Mihrab.jpg"
+  },
+  {
+    "id": 96,
+    "category": "الفن العالمي",
+    "name": "لوحة بارعة من الفن الآسيوي (تصور)",
+    "period": "القرن التاسع عشر",
+    "origin": "آسيا",
+    "description": "لوحة فنية تقليدية تعكس حسّ الطبيعة والروحانية في الفن الشرقي، وتقدم رؤية مختلفة عن التكوين والجمال.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/97/Asian_painting.jpg"
+  },
+  {
+    "id": 97,
+    "category": "الفن المعاصر العراقي",
+    "name": "مشروع فني جماعي عن الذاكرة",
+    "period": "المعاصر",
+    "origin": "بغداد",
+    "description": "مشروع يجمع أعمال فنّانين محليين لاستحضار قصص نسيجية عن الحيّ والذاكرة والهوية المشتركة.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Modern_Iraqi_art.jpg"
+  },
+  {
+    "id": 98,
+    "category": "المختارات الخاصة",
+    "name": "سجل صناعة النسيج والتجارة المحلية",
+    "period": "القرن التاسع عشر",
+    "origin": "العراق",
+    "description": "مستندات وسجلات توضح طرق تصنيع النسيج وتجارة الخيوط، وتبيّن أنماط الحياة الاقتصادية المحلية.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Old_map.jpg"
+  },
+  {
+    "id": 99,
+    "category": "الآثار القديمة",
+    "name": "بقايا سيراميك ملون",
+    "period": "الألف الثالث ق.م",
+    "origin": "بلاد الرافدين",
+    "description": "شذرات فخارية تحكي قصصًا عن الاستخدام اليومي والطقوسي، وتشير إلى حبّ الناس للجمال حتى في الأدوات البسيطة.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Ancient_plate.jpg"
+  },
+  {
+    "id": 100,
+    "category": "الختام والمعروضات الخاصة",
+    "name": "خاتم تذكاري من الذهب",
+    "period": "العصور القديمة",
+    "origin": "بلاد الرافدين",
+    "description": "خاتم ذهبي مزخرف يحمل رموزًا دينية أو شخصية؛ خاتمة المعرض كرمزٍ للاستمرارية والارتباط بين الإنسان والحياة.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Ancient_vessels.jpg"
+  }
+]
