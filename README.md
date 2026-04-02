@@ -42,6 +42,6 @@ The system is designed with strong OOP principles and includes advanced programm
 
 - ## 📸 Screenshots
 
-![Home Page](screenshots/home.png)
+![Home Page](IMG_20260217_234544_104.jpg)
 ![Details Page](screenshots/details.png)
 ![Search Feature](screenshots/search.png)
